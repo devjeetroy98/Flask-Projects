@@ -1,0 +1,25 @@
+.mainbody{
+    text-align: center;
+    margin-top: 20px;
+}
+.mainbody p{
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+.content-section{
+    margin-left: 260px;
+    margin-right: 260px;
+}
+footer{
+    padding-top: 10px;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+    background: gray;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}

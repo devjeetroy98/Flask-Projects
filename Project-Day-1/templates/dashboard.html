@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaStar Hotel</title>
+</head>
+<body>
+    {% extends "layout.html" %}
+
+    {% block content %}
+    <div class="mainbody">
+        <h2>Welcome {{ data[0] }}</h2>
+        <p style="font-weight: bolder;"><u>Details:</u></p>
+        <p>E-Mail: {{ data[1] }}</p>
+        <p>Age: {{ data[2] }}</p>
+    </div>  
+    {% endblock %}
+</body>
+</html>
