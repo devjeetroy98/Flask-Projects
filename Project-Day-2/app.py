@@ -58,7 +58,10 @@ def show_homepage():
             + "TITLE:\t\t" + title + "\n" \
             + "SHORTURL:\t" + short + "\n"
 
-        return render_template('homepage.html', form = form, data = short)
+        if status == 'success':
+            return render_template('homepage.html', form = form, data = short)
+        else:
+            return render_template('homepage.html', form = form, data = short, info = "This URL has already been shortened")
 
 if __name__ == "__main__":
     app.run(debug=True)

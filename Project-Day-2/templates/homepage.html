@@ -41,6 +41,9 @@
         </form>
         <div class="answerbox">
           {% if data %}
+          {% if info %}
+          <p>{{ info }}</p>
+          {% endif %}
           <input type="text" value="{{ data }}" id="textInput" style="width: 100%">
           {% else %}
           <p>Fill the form and hit submit to get the short URL.</p>
