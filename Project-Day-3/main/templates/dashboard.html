@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SeaStar Hotel</title>
+</head>
+<body>
+    {% extends "layout.html" %}
+
+    {% block content %}
+    <div class="mainbody">
+        <table>
+            <tr>
+            <th>Username</th>
+            <th>E-Mail</th>
+            <th>Age</th>
+            </tr>
+            {% if datas %}
+            {% for data in datas %}
+            <tr>
+                <td>{{ data.username }}</td>
+                <td>{{ data.email }}</td>  
+                <td>{{ data.age }}</td>  
+            </tr>          
+            {% endfor %}
+            {% else %}
+            <tr>
+            <td colspan="3"><p>No data exists in the database!</p></td>
+            </tr>
+            {% endif %}
+        </table>
+    </div>  
+    {% endblock %}
+</body>
+</html>
