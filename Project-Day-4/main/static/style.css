@@ -1,0 +1,163 @@
+body{
+    background: url(./mainbg.jpg) no-repeat center fixed;
+    background-size: cover;
+    color: white;
+}
+footer{
+    height: 60px;
+    width: 100%;
+    background-color: #212529;
+    color: white!important;
+    font-size: 20px;
+    bottom: 0px;
+    position: fixed;
+    text-align: center;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+.mainpage{
+    padding-top: 50px;
+    background: rgba(0, 0, 0, 0.7);
+    height: auto;
+    width: 100%;
+    padding-bottom: 220px;
+}
+.mainpage h2{
+    text-align: center;
+}
+.mainpage p{
+    margin-top: 30px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.button-holder{
+    text-align: center;
+}
+.content-section{
+    margin-left: 280px;
+    margin-right: 280px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    height: auto;
+    width: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+}
+.log{
+    color: white;
+}
+.log:hover{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.reg{
+    color: #333;
+}
+.reg:hover{
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .mainpage{
+        padding-top: 50px;
+        background: rgba(0, 0, 0, 0.7);
+        height: auto;
+        width: 100%;
+        padding-bottom: 220px;
+    }
+    .mainpage h2{
+        text-align: center;
+    }
+    .mainpage p{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .button-holder{
+        text-align: center;
+    }
+    .content-section{
+        margin-bottom: 70px;
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: 10px;
+        background: rgba(0, 0, 0, 0.7);
+        height: auto;
+        width: auto;
+        padding-top: 10px;
+        padding-bottom: 8px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+    }
+    .form-control-lg{
+        height: 36px;
+        font-size: 16px;
+    }
+    footer{
+        margin-top: 30px;
+        height: 60px;
+        width: 100%;
+        background-color: #212529;
+        color: white!important;
+        font-size: 20px;
+        bottom: 0px;
+        position: fixed;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 10px;
+    }
+  }
+
+  @media only screen and (min-width: 601px) and (max-width: 800px) {
+    .mainpage{
+        padding-top: 50px;
+        background: rgba(0, 0, 0, 0.7);
+        height: auto;
+        width: 100%;
+        padding-bottom: 220px;
+    }
+    .mainpage h2{
+        text-align: center;
+    }
+    .mainpage p{
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .button-holder{
+        text-align: center;
+    }
+    .content-section{
+        margin-bottom: 70px;
+        margin-left: 150px;
+        margin-right: 150px;
+        margin-top: 20px;
+        background: rgba(0, 0, 0, 0.7);
+        height: auto;
+        width: auto;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
+        border-radius: 30px;
+    }
+    footer{
+        margin-top: 30px;
+        height: 60px;
+        width: 100%;
+        background-color: #212529;
+        color: white!important;
+        font-size: 20px;
+        bottom: 0px;
+        position: fixed;
+        text-align: center;
+        letter-spacing: 1px;
+        padding-top: 10px;
+    }
+  }
