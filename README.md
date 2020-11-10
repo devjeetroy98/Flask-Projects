@@ -6,3 +6,4 @@ This repository contains all the flask projects for absolute beginners to experi
 3. Updating the "Project-Day-1". (+) Package & Database Integration using SQLAlchemy and SQLite
 4. Designing a complete authentication and authorization system.
 5. A Blog Web App (Implementing CRUD Operations in REST API)
+6. Updated Bengali Blog Web App (+) Database updated, Pagination Applied
