@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PotroLipi</title>
+</head>
+<body>
+    {% extends "layout.html" %}
+    {% block content %}
+        <div class="mainpage">
+            <h2>Welcome to PotroLipi</h2>
+            <p>
+                PotroLipi is a blogging platform which aims to provide beautiful short stories
+                of the Bengal and keep a balance between the literature and writings of our
+                famous historic authors and the new sensations who envisions to bring a modernism
+                in the flow of thought and culture.
+
+                PotroLipi is an initiative by Mr. Devjeet Roy to enculcate and spread the richness of
+                our language and heritage among the readers who will be the face of the Bengali
+                community in the days to come!
+
+                <div class="button-holder">
+                    <button class="btn btn-secondary"><a class="log" href="{{ url_for('login_page') }}">Login</a></button>
+                    <button class="btn btn-light"><a class="reg" href="{{ url_for('register_page') }}">Register</a></button>
+                </div>
+            </p>
+        </div>
+    {% endblock %}
+</body>
+</html>
