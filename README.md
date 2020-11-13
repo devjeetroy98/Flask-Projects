@@ -7,3 +7,4 @@ This repository contains all the flask projects for absolute beginners to experi
 4. Designing a complete authentication and authorization system.
 5. A Blog Web App (Implementing CRUD Operations in REST API)
 6. Updated Bengali Blog Web App (+) Database updated, Pagination Applied
+7. "Forget Password?" feature added for reseting the password with TimedJSONWebSignatureSerializer
