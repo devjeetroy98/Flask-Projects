@@ -9,3 +9,4 @@ This repository contains all the flask projects for absolute beginners to experi
 6. Updated Bengali Blog Web App (+) Database updated, Pagination Applied
 7. "Forget Password?" feature added for reseting the password with TimedJSONWebSignatureSerializer
 8. Modular Patterm Applied (+) Blueprint, (+) Config.py
+9. Adding custom error pages.
