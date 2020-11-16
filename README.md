@@ -10,3 +10,6 @@ This repository contains all the flask projects for absolute beginners to experi
 7. "Forget Password?" feature added for reseting the password with TimedJSONWebSignatureSerializer
 8. Modular Patterm Applied (+) Blueprint, (+) Config.py
 9. Adding custom error pages.
+10. Hosting.
+
+Link : https://potrolipi.herokuapp.com/
